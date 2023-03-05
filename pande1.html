@@ -70,20 +70,6 @@
   color: cyan;
   font-size: 10px;
 }
-<script>
-function changeImage()
-{
-    element=document.getElementById('myimage')
-    if (element.src.match("bulbon"))
-    {
-        element.src="https://W3school.com.cn/eg_bulboff.gif";
-    }
-    else
-    {
-        element.src="https://W3school.com.cn/eg_bulbon.gif";
-    }
-}
-</script>
 </style>
 </head>
 
@@ -106,6 +92,8 @@ function changeImage()
   <p>这只是占行用</p>
   <p>这只是占行用</p>
   <p>这只是占行用</p>
-  <img decoding="async" loading="lazy" id="myimage" onclick="changeImage()" src="http://www.W3school.com.cn/eg_bulboff.gif" width="100" height="180">
-  <a href="#" target="_self" class="v7" ;>回到顶部</a>
+  <button onclick="document.getElementById('myImage').src='https://www.w3school.com.cn/i/eg_bulbon.gif'">开灯</button>
+  <img id="myImage" border="0" src="https://www.W3school.com.cn/i/eg_bulboff.gif" style="text-align:center;">
+  <button onclick="document.getElementById('myImage1').style='https://www.w3school.com.cn/i/eg_bulboff.gif'">关灯</button><a href="#" target="_self" class="v7" ;>回到顶部</a>
+  <img id="myImage1" border="0" src="https://www.W3school.com.cn/i/eg_bulboff.gif" style="text-align:center;">
 </body>
