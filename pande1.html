@@ -126,7 +126,7 @@
 <script>
 function changeImage()
 {
-    element=document.getElementById('myimage')
+    element=document.getElementById('myimage1')
     if (element.src.match("bulbon"))
     {
         element.src="https://www.w3school.com.cn/i/eg_bulboff.gif";
@@ -158,7 +158,7 @@ function changeImage()
   <img id="myImage" border="0" src="https://www.w3school.com.cn/i/eg_bulboff.gif" style="text-align:center;">
   <button onclick="document.getElementById('myImage').src='https://www.w3school.com.cn/i/eg_bulboff.gif'">关灯</button>
   <p>灯泡1.0:已成功</p>
-  <img decoding="async" loading="lazy" id="myimage" onclick="changeImage()" src="https://www.w3school.com.cn/i/eg_bulboff.gif" width="100" height="180">
+  <img decoding="async" loading="lazy" id="myimage1" onclick="changeImage()" src="https://www.w3school.com.cn/i/eg_bulboff.gif" width="100" height="180">
   <p>灯泡1.1：已成功</p>
   <button class="button">Hover me :)</button>
 <div class="loading">
@@ -167,5 +167,8 @@ function changeImage()
     <polyline points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24" id="front"></polyline>
   </svg>
 </div>
+  <button onclick="document.getELementById('myImage').src='https://www.W3school.com.cn/i/eg_bolbon.gif'">开灯</botton>
+  <botton></botton>
+  <bottom onclick="document.getElementById('myImage').src='https://www.w3school.com.cn/i/eg_bulboff.gif'">再试一次</botton>
   <a href="#" target="_self" class="v7" ;>回到顶部</a>
 </body>
